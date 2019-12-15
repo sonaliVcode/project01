@@ -143,6 +143,10 @@
     margin-top: 70px;
     overflow: hidden;
 }
+.product-cat {
+    margin-top: 25px;
+    overflow: hidden;
+}
 .product__inner {
     position: relative;
 }
@@ -471,6 +475,14 @@
     padding: 20px 0;
     width: 100%;
 }
+
+.product-categories-menu-full-desc {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid rgba(129, 129, 129, 0.2);
+  padding: 0px 0;
+  width: 100%;
+}
+
 .product-categories-menu ul li {
     position: relative;
 }
@@ -769,7 +781,7 @@
 .ht__bradcaump__wrap {
     align-items: center;
     display: flex;
-    height: 320px;
+    height: 220px;
 }
 .bradcaump-title {
     color: #343434;
@@ -777,6 +789,9 @@
     font-weight: 400;
     line-height: 40px;
     text-transform: capitalize;
+}
+.bradcaump-title-expaned {
+  letter-spacing: 10px;
 }
 .breadcrumb-item {
     color: #343434;
