@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {CartService} from '../services/cart.service';
 
 @Component({
   selector: 'app-offset-panel',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OffsetPanelComponent implements OnInit {
 
-  constructor() { }
+  itemsBought = [];
+
+  constructor(private cartService: CartService) { }
 
   ngOnInit() {
+    this.itemsBought = this.cartService.cartItems;
   }
 
 }
