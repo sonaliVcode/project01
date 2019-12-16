@@ -14,6 +14,8 @@ export class OffsetPanelComponent implements OnInit {
 
   ngOnInit() {
     this.itemsBought = this.cartService.cartItems;
+
+    this.cartService.getItemsFromLocalStorage();
   }
 
 }

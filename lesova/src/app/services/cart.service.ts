@@ -34,6 +34,7 @@ export class CartService {
 
   getItemsFromLocalStorage() {
     this.cartItems = JSON.parse(localStorage.getItem('lesovaCartItems'));
+    console.log('cart items : ', this.cartItems);
   }
 
 }
