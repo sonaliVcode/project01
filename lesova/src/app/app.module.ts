@@ -30,6 +30,7 @@ import { SublimationPlacementPageComponent } from './sublimation-placement-page/
 import { DesignProtoTypesPageComponent } from './design-proto-types-page/design-proto-types-page.component';
 import { TShirtsPatternPageComponent } from './t-shirts-pattern-page/t-shirts-pattern-page.component';
 import { TShirtslkBlockInnerComponent } from './tshirtslk-block-inner/tshirtslk-block-inner.component';
+import { OrderFormComponent } from './services/order-form/order-form.component';
 
 
 @NgModule({
@@ -59,7 +60,8 @@ import { TShirtslkBlockInnerComponent } from './tshirtslk-block-inner/tshirtslk-
     SublimationPlacementPageComponent,
     DesignProtoTypesPageComponent,
     TShirtsPatternPageComponent,
-    TShirtslkBlockInnerComponent
+    TShirtslkBlockInnerComponent,
+    OrderFormComponent
   ],
   imports: [
     BrowserModule,

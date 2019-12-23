@@ -15,13 +15,15 @@ import {SublimationDesignPageComponent} from './sublimation-design-page/sublimat
 import {SublimationPlacementPageComponent} from "./sublimation-placement-page/sublimation-placement-page.component";
 import {TShirtsPatternPageComponent} from "./t-shirts-pattern-page/t-shirts-pattern-page.component";
 import {DesignProtoTypesPageComponent} from "./design-proto-types-page/design-proto-types-page.component";
+import {OrderFormComponent} from './services/order-form/order-form.component';
 
 
 const routes: Routes = [
-  {path: '', redirectTo: 'lesova/home', pathMatch: 'full'},
+  {path: '', redirectTo: 'lesova/orderForm', pathMatch: 'full'},
   {path : 'lesova',
     children: [
       { path: 'home', component : HomeComponent },
+      { path: 'orderForm', component : OrderFormComponent },
       { path: 'portfolio', component : PortfolioComponent },
       { path: 'gallery', component : GalleryComponent },
       { path: 'shop', component : ShopComponent },
